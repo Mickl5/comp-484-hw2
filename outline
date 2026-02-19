@@ -1,0 +1,57 @@
+Document Outline
+
+Header (role="banner")
+- h1: Comp 484
+- h2: Structuring Pages
+- Navigation (role="navigation")
+  - Introduction to HTML
+  - HTML syntax
+  - Structuring pages
+  - Creating links
+  - HTML reference
+  - Next steps
+
+Main (role="main")
+- Article
+  - h3: Conveying meaning through structure
+  - Section
+    - h3: Sectioning elements
+  - Section
+    - h3: Document outlines
+    - Aside (role="complementary")
+      - h4: W3C Warning
+  - Section
+    - h3: WAI-ARIA Roles
+
+Footer (role="contentinfo")
+- CSUN address information
+
+
+2. Structural Element Usage
+
+The header contains the site title and navigation.
+
+The nav element contains the main navigation links.
+
+The main element contains the primary page content.
+
+The article contains the main instructional content.
+
+Each section groups related content by topic.
+
+The aside contains related but secondary information about the W3C warning.
+
+The footer contains contact and site information.
+
+
+3. ARIA Roles
+
+role="banner" is used on the header.
+
+role="navigation" is used on the nav.
+
+role="main" is used on the main element.
+
+role="complementary" is used on the aside.
+
+role="contentinfo" is used on the footer.
